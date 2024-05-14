@@ -48,10 +48,10 @@ def process_message(ch, method, properties, body):
     logger.info(f"Received: {body.decode()}")
 
 
-# define a main function to run the program
+# define a main function to run the program+  
 # pass in the hostname as a string parameter if you like
 # if no argument is provided, set a default value to localhost
-def main(hn: str = "localhosttt"):
+def main(hn: str = "localhost"):
     """Main program entry point."""
 
     # when a statement can go wrong, use a try-except block
@@ -108,3 +108,4 @@ def main(hn: str = "localhosttt"):
 # ---------------------------------------------------------------------------
 if __name__ == "__main__":
     main()
+
