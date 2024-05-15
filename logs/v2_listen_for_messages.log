@@ -9,3 +9,6 @@
 2024-05-14 19:00:33,355.v2_listen_for_messages.INFO Received: I'm done'!
 2024-05-14 19:00:33,355.v2_listen_for_messages.INFO Received: Hello World!
 2024-05-14 19:00:33,355.v2_listen_for_messages.INFO Received: Hello World!
+2024-05-14 20:06:32,582.v2_listen_for_messages.ERROR ERROR: An issue occurred while setting up or listening for messages.
+2024-05-14 20:06:32,630.v2_listen_for_messages.ERROR Error Details: Stream connection lost: ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)
+2024-05-14 20:06:32,658.v2_listen_for_messages.INFO Closing connection. Goodbye.
